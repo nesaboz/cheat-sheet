@@ -1,5 +1,8 @@
-To see keys that one can use to run Bing API go here:
-https://portal.azure.com/#home
+# Azure 
 
-![[Pasted image 20221221121217.png]]
+
+To see keys that one can use to run Bing API go [here](https://portal.azure.com/#home)
+
+![[assets/Pasted image 20221221121217.png]]
+
 

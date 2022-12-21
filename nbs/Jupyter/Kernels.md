@@ -1,3 +1,6 @@
+# Kernels
+
+
 ```
 # list kernels
 jupyter kernelspec list
