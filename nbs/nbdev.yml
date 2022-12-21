@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "cheat-sheet"
+  site-url: "https://nesaboz.github.io/cheat-sheet"
+  description: "My second brain."
+  repo-branch: main
+  repo-url: "https://github.com/nesaboz/cheat-sheet"
