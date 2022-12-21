@@ -3,7 +3,7 @@
 
 Couldn't upload large files without git-lfs (lfs stands for [large file storage](https://stackoverflow.com/questions/67395259/git-clone-git-lfs-filter-process-git-lfs-command-not-found))
 
-```
+```zsh
 brew install git-lfs
 git lfs install
 ```
