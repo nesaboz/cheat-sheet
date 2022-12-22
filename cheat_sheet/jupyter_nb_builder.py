@@ -15,7 +15,7 @@ def get_title_and_lines(md_file: Path) -> (str, list):
     Opens a md_file and gets the name and all the lines.
     """
 
-    title = md_file.name.split('.')[0]
+    title = (md_file.name.split('.')[0]).replace('_', ' ').capitalize()
 
     with open(md_file, 'r') as f:
         lines = f.readlines()
@@ -43,7 +43,7 @@ def get_json_from_md(name, md_files, output_path):
             "cell_type": "markdown",
             "metadata": {},
             "source": [
-                f"## {name}"
+                f"# {name}"
         ]
     }
     cells = [initial_cell]
@@ -54,7 +54,7 @@ def get_json_from_md(name, md_files, output_path):
             "cell_type": "markdown",
             "metadata": {},
             "source": [
-                f"# {title}"
+                f"## {title}"
             ]
         }
 

@@ -1,0 +1,8 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_Python.ipynb
+      - 01_Terminal.ipynb
+      - 02_FastAI.ipynb
+      - 03_Jupyter.ipynb
