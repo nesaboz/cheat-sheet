@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"07802bb8d062e232","x":-467,"y":-666,"width":400,"height":400,"type":"file","file":"Python/PIL.md"},
+		{"id":"3804ead3b1f946fe","x":-467,"y":-91,"width":400,"height":400,"type":"file","file":"Python/Pathlib.md"},
+		{"id":"9fb3d2afdf459fbe","x":140,"y":-666,"width":400,"height":400,"type":"file","file":"Python/PyTest.md"},
+		{"id":"f4f14c368ec11e64","x":140,"y":-91,"width":400,"height":400,"type":"file","file":"Python/Regex.md"}
+	],
+	"edges":[]
+}

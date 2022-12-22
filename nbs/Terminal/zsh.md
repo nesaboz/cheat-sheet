@@ -99,3 +99,12 @@ conda env remove -n ENV_NAME
 conda env export > env.yml
 conda env create -n ENVNAME --file ENV.yml
 ```
+
+
+## if statement in zsh
+
+```zsh
+if ! [[ -n $repo_name ]] || ! [[ -n $python_ver ]]; then  
+  echo "you didn't enter repo name and/or python version"  
+  exit 0  
+fi
