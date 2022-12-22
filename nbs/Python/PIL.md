@@ -1,4 +1,3 @@
-# PIL
 
 ```python
 from PIL import Image

@@ -1,5 +1,3 @@
-# Regex
-
 Suppose we need to extract `row` and `col` from a string:
 
 ```python

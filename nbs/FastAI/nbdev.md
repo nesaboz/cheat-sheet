@@ -1,6 +1,3 @@
-# nbdev
-
-
 See main page [here](https://nbdev.fast.ai/tutorials/tutorial.html)
 
 

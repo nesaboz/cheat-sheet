@@ -1,4 +1,3 @@
-# Pathlib
 
 ```python
 from pathlib import Path

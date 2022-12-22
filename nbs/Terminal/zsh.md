@@ -1,5 +1,3 @@
-# zsh
-
 There are many shells one can use, Mac default is `zsh` (located at `/bin/zsh`). I set up PyCharm to use it as well in the `Preferences\Tools\Terminal\Shell Path`
 
 Bash/zsh comment is the same as python: `#`

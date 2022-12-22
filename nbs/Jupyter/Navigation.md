@@ -1,5 +1,3 @@
-# General
-
 
 ## Help
 To see parameters: `SHIFT + TAB`

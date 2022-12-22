@@ -1,5 +1,3 @@
-# Images
-
 
 To show images in markdown cells:
 ```jupyter

@@ -1,5 +1,3 @@
-# FastAI
-
 
 To install fastai project on any linux machine (more [here](https://github.com/fastai/fastsetup), also see [docs](https://docs.fast.ai/)):
 

@@ -1,5 +1,3 @@
-# Kernels
-
 
 ```
 # list kernels
