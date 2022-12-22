@@ -7,34 +7,32 @@ Run this file to build all jupyter notebooks from markdown files:
 import json
 from pathlib import Path
 
-nbs_path = Path('/Users/nenad.bozinovic/cheat-sheet/nbs')
-subfolders = [x for x in list(nbs_path.iterdir()) if (x.is_dir() and x.name[0] != '.')]
 
-def get_title_and_lines(md_file: Path) -> (str, list):
+def get_title_and_lines(md_file: Path) -> (str, str, list):
     """
     Opens a md_file and gets the name and all the lines.
     """
 
     file_title = md_file.name.split('.')[0]
     title = file_title.replace('_', ' ')
-    title = title[0].capitalize() + title[1:]
+    # title = title[0].capitalize() + title[1:]
 
     with open(md_file, 'r') as f:
         lines = f.readlines()
 
-    return title, lines
+    return file_title, title, lines
 
 
-def get_json_from_md(subfolder_name, idx):
+def get_json_from_md(subfolder: Path):
     """
     jupyter notebook is basically json, that consists of 4 cells.
     """
 
     md_files = list(subfolder.glob('*.md'))
 
-    for j, md_file in enumerate(md_files):
+    for md_file in md_files:
 
-        title, lines = get_title_and_lines(md_file)
+        output_file_name, title, lines = get_title_and_lines(md_file)
 
         initial_cell = {
             "cell_type": "markdown",
@@ -60,14 +58,18 @@ def get_json_from_md(subfolder_name, idx):
             "nbformat": 4,
             "nbformat_minor": 4
         }
-        output_file = f"{title}.ipynb".replace(' ', '_')
-
-        with (nbs_path / subfolder_name / output_file).open('w') as f:
+        output_file_path = subfolder / f"{output_file_name}.ipynb"
+        with output_file_path.open('w') as f:
             json.dump(output, f, indent=1)
             f.write('\n')  # adding new line here only for some weird quirk to pass CI worklfow (in .github/workflows/test.yaml)
 
-        print(f"Built {output_file}.")
+        print(f"Built {output_file_path}.")
 
 
-for idx, subfolder in enumerate(subfolders):
-    get_json_from_md(subfolder, idx)
+nbs_path = Path('/Users/nenad.bozinovic/cheat-sheet/nbs')
+subfolders = [x for x in list(nbs_path.iterdir()) if (x.is_dir() and x.name[0] != '.')]
+for subfolder in subfolders:
+    get_json_from_md(subfolder)
+
+
+

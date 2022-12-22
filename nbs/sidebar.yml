@@ -5,8 +5,8 @@ website:
       - section: FastAI
         contents:
           - FastAI/Azure.ipynb
-          - FastAI/Fastai.ipynb
-          - FastAI/Huggingface.ipynb
+          - FastAI/FastAI.ipynb
+          - FastAI/HuggingFace.ipynb
           - FastAI/Nbdev.ipynb
       - section: Jupyter
         contents:
@@ -16,12 +16,12 @@ website:
           - Jupyter/Navigation.ipynb
       - section: Python
         contents:
-          - Python/Fileio.ipynb
+          - Python/FileIO.ipynb
+          - Python/PIL.ipynb
           - Python/Pathlib.ipynb
-          - Python/Pil.ipynb
-          - Python/Pytest.ipynb
+          - Python/PyTest.ipynb
           - Python/Regex.ipynb
       - section: Terminal
         contents:
-          - Terminal/Make new repo.ipynb
-          - Terminal/zsh.ipynb
+          - Terminal/MakeNewRepo.ipynb
+          - Terminal/Zsh.ipynb
