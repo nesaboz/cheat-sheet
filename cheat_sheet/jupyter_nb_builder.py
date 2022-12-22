@@ -78,7 +78,7 @@ def get_json_from_md(name, md_files, output_path):
     }
 
     with output_path.open('w') as f:
-        json.dump(output, f, indent=1)
+        json.dump(output, f, indent=1)  # TODO maybe add extra line to the ipynb? or run nbdev_clean
 
 
 for i, subfolder in enumerate(subfolders):
