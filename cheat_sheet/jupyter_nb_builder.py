@@ -23,7 +23,7 @@ def get_title_and_lines(md_file: Path) -> (str, list):
     return title, lines
 
 
-def get_json_from_md(md_files, output_path):
+def get_json_from_md(name, md_files, output_path):
     """
     jupyter notebook is basically json, that consists of 4 cells.
     """
@@ -39,7 +39,14 @@ def get_json_from_md(md_files, output_path):
     #    ]
     #   },
 
-    cells = []
+    initial_cell = {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                f"# {name}"
+        ]
+    }
+    cells = [initial_cell]
     for md_file in md_files:
         title, lines = get_title_and_lines(md_file)
 
@@ -76,8 +83,7 @@ def get_json_from_md(md_files, output_path):
 
 for i, subfolder in enumerate(subfolders):
     md_files = list(subfolder.glob('*.md'))
-    output_file = f"{i:02d}_{subfolder.name}.ipynb"
-    get_json_from_md(md_files, nbs_path / output_file )
+    name = subfolder.name
+    output_file = f"{i:02d}_{name}.ipynb"
+    get_json_from_md(name, md_files, nbs_path / output_file)
     print(f"Built {output_file}.")
-
-
