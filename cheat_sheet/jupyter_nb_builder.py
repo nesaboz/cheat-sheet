@@ -43,7 +43,7 @@ def get_json_from_md(name, md_files, output_path):
             "cell_type": "markdown",
             "metadata": {},
             "source": [
-                f"# {name}"
+                f"## {name}"
         ]
     }
     cells = [initial_cell]
