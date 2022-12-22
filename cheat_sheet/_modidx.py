@@ -5,4 +5,4 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://nesaboz.github.io',
                 'git_url': 'https://github.com/nesaboz/cheat-sheet',
                 'lib_path': 'cheat_sheet'},
-  'syms': {'cheat_sheet.core': {'cheat_sheet.core.foo': ('core.html#foo', 'cheat_sheet/core.py')}}}
+  'syms': {'cheat_sheet.jupyter_nb_builder': {}}}
