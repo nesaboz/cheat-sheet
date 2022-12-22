@@ -7,7 +7,7 @@ website:
           - FastAI/Azure.ipynb
           - FastAI/FastAI.ipynb
           - FastAI/HuggingFace.ipynb
-          - FastAI/Nbdev.ipynb
+          - FastAI/nbdev.ipynb
       - section: Jupyter
         contents:
           - Jupyter/Extensions.ipynb
