@@ -8,7 +8,8 @@ for example:
 ![](assets/example.png)
 ```
 will produce:
-![](example.png)
+
+![](assets/example.png)
 
 One can also use HTML to show images (`src`) with lot's of flexibility: 
 - to change the width add `width` (as string)
@@ -24,10 +25,10 @@ then refer to the figure as:
  
 also can refer to URL images: (for example in Google Colab we have to replace the reference by it's github link):
 ```
-<img src="https://raw.githubusercontent.com/nesaboz/pytorched/8c41b15364234c31af4f6222b2251954131b4a94/nbs/images/transfer_learning_layer_replacement.jpg"/>
+<img width="500" src="https://raw.githubusercontent.com/nesaboz/pytorched/8c41b15364234c31af4f6222b2251954131b4a94/nbs/images/transfer_learning_layer_replacement.jpg"/>
 ```
 
-<img src="https://raw.githubusercontent.com/nesaboz/pytorched/8c41b15364234c31af4f6222b2251954131b4a94/nbs/images/transfer_learning_layer_replacement.jpg"/>
+<img width="500" src="https://raw.githubusercontent.com/nesaboz/pytorched/8c41b15364234c31af4f6222b2251954131b4a94/nbs/images/transfer_learning_layer_replacement.jpg"/>
 
 See this [great markdown guide](https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd) for more.
 

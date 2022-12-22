@@ -2,7 +2,26 @@ website:
   sidebar:
     contents:
       - index.ipynb
-      - 00_Python.ipynb
-      - 01_Terminal.ipynb
-      - 02_FastAI.ipynb
-      - 03_Jupyter.ipynb
+      - section: FastAI
+        contents:
+          - FastAI/Azure.ipynb
+          - FastAI/Fastai.ipynb
+          - FastAI/Huggingface.ipynb
+          - FastAI/Nbdev.ipynb
+      - section: Jupyter
+        contents:
+          - Jupyter/Extensions.ipynb
+          - Jupyter/Images.ipynb
+          - Jupyter/Kernels.ipynb
+          - Jupyter/Navigation.ipynb
+      - section: Python
+        contents:
+          - Python/Fileio.ipynb
+          - Python/Pathlib.ipynb
+          - Python/Pil.ipynb
+          - Python/Pytest.ipynb
+          - Python/Regex.ipynb
+      - section: Terminal
+        contents:
+          - Terminal/Make new repo.ipynb
+          - Terminal/zsh.ipynb
