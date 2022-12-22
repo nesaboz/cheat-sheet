@@ -24,4 +24,4 @@ website:
       - section: Terminal
         contents:
           - Terminal/MakeNewRepo.ipynb
-          - Terminal/Zsh.ipynb
+          - Terminal/zsh.ipynb

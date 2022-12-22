@@ -66,7 +66,7 @@ def get_json_from_md(subfolder: Path):
         print(f"Built {output_file_path}.")
 
 
-nbs_path = Path('/Users/nenad.bozinovic/cheat-sheet/nbs')
+nbs_path = Path(__file__).parent
 subfolders = [x for x in list(nbs_path.iterdir()) if (x.is_dir() and x.name[0] != '.')]
 for subfolder in subfolders:
     get_json_from_md(subfolder)
