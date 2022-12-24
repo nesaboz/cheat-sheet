@@ -30,7 +30,13 @@ print(im.getbands())
 im.getchannel('R')
 ```
 
-to convert to tensor:
+To convert to RGB (from RGBA for example):
+```python
+im_rgb = im.convert('RGB')
+im_gray = im.convert('L')
+```
+
+To convert to tensor:
 ```python
 from torchvision.transforms import ToTensor
 tensorizer = ToTensor()
