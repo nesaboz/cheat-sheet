@@ -12,7 +12,7 @@ print(a.dtype)
 print(a.shape)
 a = a.squeeze()
 print(a.shape)
-
+print(np.expand_dims(a.astype(np.float32), 0).shape)
 ```
 
 To scale tensor from 0, 255, convert to uint8
@@ -26,4 +26,4 @@ b.max()
 b = (np.array(mask_tensor) / np.array(mask_tensor).max()).astype(np.float32).squeeze()
 b.max()
 ```
- 
+

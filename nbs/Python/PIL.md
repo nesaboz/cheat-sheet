@@ -44,3 +44,8 @@ im_tensor = tensorizer(im)
 print(im_tensor.shape)
 im_tensor[:, :3, :3]
 ```
+
+To convert from grayscale numpy array between [0,1] to PIL:
+```python
+Image.fromarray(np.uint8(array*255))
+```
