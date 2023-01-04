@@ -1,3 +1,5 @@
+# This file is obsolete and should never be run anymore.
+
 """
 Run this file to build all jupyter notebooks from markdown files:
 - find out all the folders in the nbs folder
@@ -65,11 +67,12 @@ def get_json_from_md(subfolder: Path):
 
         print(f"Built {output_file_path}.")
 
-
-nbs_path = Path(__file__).parent
-subfolders = [x for x in list(nbs_path.iterdir()) if (x.is_dir() and x.name[0] != '.')]
-for subfolder in subfolders:
-    get_json_from_md(subfolder)
+##  DO NOT RUN THIS ANYMORE, IT WILL OVERWRITE ALL JUPYTER NOTEBOOKS.
+##  in the future I might consider running this only for non python files, and stick with obsidian for others, unclear yet.
+# nbs_path = Path(__file__).parent
+# subfolders = [x for x in list(nbs_path.iterdir()) if (x.is_dir() and x.name[0] != '.')]
+# for subfolder in subfolders:
+#     get_json_from_md(subfolder)
 
 
 

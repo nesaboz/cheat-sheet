@@ -14,13 +14,24 @@ website:
           - Jupyter/Images.ipynb
           - Jupyter/Kernels.ipynb
           - Jupyter/Navigation.ipynb
+      - section: Misc
+        contents:
+          - Misc/Obsidian.ipynb
+      - section: PyTorch
+        contents:
+          - PyTorch/Models.ipynb
+          - PyTorch/Tensor.ipynb
+          - PyTorch/convolutions.ipynb
       - section: Python
         contents:
           - Python/FileIO.ipynb
+          - Python/Numpy.ipynb
           - Python/PIL.ipynb
           - Python/Pathlib.ipynb
           - Python/PyTest.ipynb
           - Python/Regex.ipynb
+          - Python/SetOperations.ipynb
+          - Python/functools.ipynb
       - section: Terminal
         contents:
           - Terminal/MakeNewRepo.ipynb
