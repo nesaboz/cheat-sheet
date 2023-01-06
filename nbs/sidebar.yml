@@ -2,37 +2,38 @@ website:
   sidebar:
     contents:
       - index.ipynb
-      - section: FastAI
-        contents:
-          - FastAI/Azure.ipynb
-          - FastAI/FastAI.ipynb
-          - FastAI/HuggingFace.ipynb
-          - FastAI/nbdev.ipynb
-      - section: Jupyter
-        contents:
-          - Jupyter/Extensions.ipynb
-          - Jupyter/Images.ipynb
-          - Jupyter/Kernels.ipynb
-          - Jupyter/Navigation.ipynb
-      - section: Misc
-        contents:
-          - Misc/Obsidian.ipynb
-      - section: PyTorch
-        contents:
-          - PyTorch/Models.ipynb
-          - PyTorch/Tensor.ipynb
-          - PyTorch/convolutions.ipynb
       - section: Python
         contents:
-          - Python/FileIO.ipynb
-          - Python/Numpy.ipynb
-          - Python/PIL.ipynb
-          - Python/Pathlib.ipynb
-          - Python/PyTest.ipynb
-          - Python/Regex.ipynb
-          - Python/SetOperations.ipynb
-          - Python/functools.ipynb
+          - 010_Python/FileIO.ipynb
+          - 010_Python/Numpy.ipynb
+          - 010_Python/PIL.ipynb
+          - 010_Python/Pathlib.ipynb
+          - 010_Python/PyTest.ipynb
+          - 010_Python/Regex.ipynb
+          - 010_Python/SetOperations.ipynb
+          - 010_Python/functools.ipynb
+      - section: Jupyter
+        contents:
+          - 020_Jupyter/Extensions.ipynb
+          - 020_Jupyter/Images.ipynb
+          - 020_Jupyter/Kernels.ipynb
+          - 020_Jupyter/Navigation.ipynb
+          - 020_Jupyter/matplotlib.ipynb
       - section: Terminal
         contents:
-          - Terminal/MakeNewRepo.ipynb
-          - Terminal/zsh.ipynb
+          - 030_Terminal/MakeNewRepo.ipynb
+          - 030_Terminal/zsh.ipynb
+      - section: PyTorch
+        contents:
+          - 040_PyTorch/Models.ipynb
+          - 040_PyTorch/Tensor.ipynb
+          - 040_PyTorch/convolutions.ipynb
+      - section: FastAI
+        contents:
+          - 050_FastAI/Azure.ipynb
+          - 050_FastAI/FastAI.ipynb
+          - 050_FastAI/HuggingFace.ipynb
+          - 050_FastAI/nbdev.ipynb
+      - section: Misc
+        contents:
+          - 060_Misc/Obsidian.ipynb
