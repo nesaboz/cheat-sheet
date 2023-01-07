@@ -12,7 +12,6 @@ open .
 To open terminal from folder I added a shortcut:
 `Control + Alt + Shift + T`
 
-To see hidden files on Mac in finder: `Command + Shift + .`
 
 ## Count files
 
