@@ -38,5 +38,6 @@ website:
           - 050_FastAI/nbdev.ipynb
       - section: Misc
         contents:
+          - 060_Misc/Git.ipynb
           - 060_Misc/MacOS.ipynb
           - 060_Misc/Obsidian.ipynb
