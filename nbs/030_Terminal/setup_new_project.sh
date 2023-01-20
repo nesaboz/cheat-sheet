@@ -25,8 +25,10 @@ cd $repo_name || exit
 echo $repo_name >> README.md
 git config --global init.defaultBranch main
 git init
-pip install -U numpy pandas matplotlib torchviz scikit-learn tensorboard torchvision torch tqdm torch-lr-finder
+
+pip install -U numpy pandas matplotlib torchviz scikit-learn tensorboard torchvision torch tqdm torch-lr-finder ipyplot ipywidgets opencv-python torchmetrics
 yes | conda install -c conda-forge jupyter_contrib_nbextensions graphviz python-graphviz
+
 ipython kernel install --name $repo_name --user
 conda env export > env.yml
 git add .
