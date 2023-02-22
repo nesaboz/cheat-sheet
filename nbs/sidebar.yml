@@ -4,21 +4,26 @@ website:
       - index.ipynb
       - section: Python
         contents:
+          - 010_Python/Datetime.ipynb
           - 010_Python/FileIO.ipynb
+          - 010_Python/Fitting.ipynb
+          - 010_Python/General.ipynb
           - 010_Python/Numpy.ipynb
+          - 010_Python/OpenCV.ipynb
           - 010_Python/PIL.ipynb
+          - 010_Python/Pandas.ipynb
           - 010_Python/Pathlib.ipynb
           - 010_Python/PyTest.ipynb
           - 010_Python/Regex.ipynb
+          - 010_Python/Scipy.ipynb
           - 010_Python/SetOperations.ipynb
           - 010_Python/Visualizations.ipynb
           - 010_Python/functools.ipynb
       - section: Jupyter
         contents:
-          - 020_Jupyter/Extensions.ipynb
+          - 020_Jupyter/General.ipynb
           - 020_Jupyter/Images.ipynb
           - 020_Jupyter/Kernels.ipynb
-          - 020_Jupyter/Navigation.ipynb
           - 020_Jupyter/matplotlib.ipynb
       - section: Terminal
         contents:
@@ -26,10 +31,12 @@ website:
           - 030_Terminal/zsh.ipynb
       - section: PyTorch
         contents:
+          - 040_PyTorch/Augmentations.ipynb
           - 040_PyTorch/Models.ipynb
           - 040_PyTorch/Tensor.ipynb
           - 040_PyTorch/convolutions.ipynb
           - 040_PyTorch/loss.ipynb
+          - 040_PyTorch/metrics.ipynb
       - section: FastAI
         contents:
           - 050_FastAI/Azure.ipynb
@@ -39,5 +46,8 @@ website:
       - section: Misc
         contents:
           - 060_Misc/Git.ipynb
+          - 060_Misc/JarvisLabsai.ipynb
+          - 060_Misc/Latex.ipynb
           - 060_Misc/MacOS.ipynb
           - 060_Misc/Obsidian.ipynb
+          - 060_Misc/Web.ipynb
